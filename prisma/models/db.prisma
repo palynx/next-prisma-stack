@@ -1,6 +1,6 @@
 datasource db {
 
   provider = "postgresql"
-  url      = "postgresql://postgres:@localhost:5432"
+  url      = env("DATABASE_URL")
 
 }
